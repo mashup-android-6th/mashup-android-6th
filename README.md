@@ -47,6 +47,22 @@ dependencies {
 
 https://yts.am/api/v2/list_movies.json?
 
-* Parameter ( `limit=5` )
+* BASE_URL + Parameter ( `limit=5` )
 
 https://yts.am/api/v2/list_movies.json?limit=5
+
+```kotlin
+class ExampleViewmodel : ViewModel() {
+	// BASE_URL + Parameter 에서 내려주는 데이터 받아오기
+}
+```
+
+```kotlin
+class ExampleActivity : AppCompatActivity() {
+
+    val exampleViewModel by lazy {
+        ViewModelProviders.of(this).get(ExampleViewmodel::class.java)
+    }
+}    
+```
+
