@@ -1,4 +1,6 @@
-# 안드로이드 스터디 계획 (해커톤 이후)
+
+
+# `안드로이드` 스터디 계획 (해커톤 이후)
 
 ![Mash-Up Android 6th 스터디 계획 공유](./images/mash-up-plan.png)
 
@@ -51,12 +53,14 @@ https://yts.am/api/v2/list_movies.json?
 
 https://yts.am/api/v2/list_movies.json?limit=5
 
+* ViewModel() - ViewModel
+
 ```kotlin
 class ExampleViewmodel : ViewModel() {
 	// BASE_URL + Parameter 에서 내려주는 데이터 받아오기
 }
 ```
-
+* AppCompateActivity() - View
 ```kotlin
 class ExampleActivity : AppCompatActivity() {
 
@@ -66,3 +70,14 @@ class ExampleActivity : AppCompatActivity() {
 }    
 ```
 
+* data class - Model
+
+```kotlin
+data class Data(
+    val data1 : String,
+    val data2 : String
+)
+```
+
+* RetrofitClient - `object` ,`companion object`
+* Source 혹은 Repository (optional)
