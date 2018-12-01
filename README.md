@@ -1,6 +1,6 @@
 
 
-# `안드로이드` 스터디 계획 (해커톤 이후)
+# 안드로이드 스터디 계획 (해커톤 이후)
 
 ![Mash-Up Android 6th 스터디 계획 공유](./images/mash-up-plan.png)
 
