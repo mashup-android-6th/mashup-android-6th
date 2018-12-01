@@ -1,4 +1,4 @@
-package com.mashup.mashup_android_6th
+package com.mashup.mashup_android_6th.views
 
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator

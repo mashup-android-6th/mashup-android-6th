@@ -1,10 +1,9 @@
-package com.mashup.mashup_android_6th
+package com.mashup.mashup_android_6th.views
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.mashup.mashup_android_6th.network.SampleAPI
-import com.mashup.mashup_android_6th.network.SampleRepository
+import androidx.appcompat.app.AppCompatActivity
+import com.mashup.mashup_android_6th.R
 import com.mashup.mashup_android_6th.network.TempAPI
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
