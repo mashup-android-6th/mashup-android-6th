@@ -13,7 +13,7 @@ object MovieRepository {
         retrofit = Retrofit.Builder()
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("https://yts.am/api/v2")
+            .baseUrl("https://yts.am/api/v2/")
             .build()
 
         movieAPI = retrofit.create(MovieAPI::class.java)
