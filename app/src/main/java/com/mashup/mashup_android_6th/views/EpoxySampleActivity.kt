@@ -14,7 +14,6 @@ class EpoxySampleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_epoxy_sample)
 
         ervName.withModels {
-            
         }
     }
 
